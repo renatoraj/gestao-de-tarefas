@@ -1,0 +1,11 @@
+Flask
+Flask-RESTful
+Flask-PyMongo
+Pydantic
+pytest
+pytest-mock
+requests
+marshmallow
+marshmallow-sqlalchemy
+psycopg2-binary
+mysql-connector-python
