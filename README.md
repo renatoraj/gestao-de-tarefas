@@ -12,26 +12,8 @@ Infrastructure: Docker containerization
 
 Testing: Comprehensive unit tests for both Python and .NET
 
-🏗️ Architecture
-text
-gestao-de-tarefas/
-├── 📁 src/                    # Python Backend
-│   ├── api/
-│   │   ├── controllers/       # REST endpoints
-│   │   ├── services/          # Business logic
-│   │   ├── repositories/      # Data access
-│   │   ├── models/            # Domain models
-│   │   └── dtos/              # Data Transfer Objects
-│   ├── tests/                 # Python unit tests
-│   └── app.py                 # Flask application
-├── 📁 clients/                # API Clients
-│   └── dotnet/               # .NET Console Client
-├── 🐳 docker-compose.yml      # Container orchestration
-├── 📝 requirements.txt        # Python dependencies
-└── 🧪 pyproject.toml          # Project configuration
-
-
 ✨ Features
+
 Backend (Python/Flask)
 ✅ RESTful API with proper HTTP status codes
 
