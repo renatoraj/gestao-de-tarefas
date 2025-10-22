@@ -29,6 +29,8 @@ gestao-de-tarefas/
 ├── 🐳 docker-compose.yml      # Container orchestration
 ├── 📝 requirements.txt        # Python dependencies
 └── 🧪 pyproject.toml          # Project configuration
+
+
 ✨ Features
 Backend (Python/Flask)
 ✅ RESTful API with proper HTTP status codes
@@ -61,6 +63,7 @@ DevOps
 
 ✅ Cross-platform compatibility
 
+
 🚀 Quick Start
 Prerequisites
 Python 3.9+
@@ -91,6 +94,7 @@ docker-compose up --build
 
 # The API will be available at http://localhost:5000
 # You can then run the .NET client separately
+
 🧪 Testing
 Python Backend Tests
 bash
@@ -115,6 +119,7 @@ Test Coverage:
 
 ✅ Integration: End-to-end API consumption tested
 
+
 📡 API Documentation
 Endpoints
 Method	Endpoint	Description	Status Codes
@@ -123,6 +128,7 @@ GET	/api/tasks	List all tasks	200
 GET	/api/tasks/{id}	Get specific task	200, 404
 PUT	/api/tasks/{id}	Update task	200, 400, 404
 DELETE	/api/tasks/{id}	Delete task	204, 404
+
 Example Usage
 Create Task
 bash
@@ -132,6 +138,7 @@ curl -X POST http://localhost:5000/api/tasks \
 List Tasks
 bash
 curl http://localhost:5000/api/tasks
+
 🛠️ Technology Stack
 Backend
 Python 3.9 - Runtime
@@ -154,7 +161,9 @@ Docker - Containerization
 
 Docker Compose - Orchestration
 
+
 🎯 Project Highlights
+
 Clean Code Practices
 ✅ Separation of Concerns (Controller/Service/Repository)
 
@@ -193,7 +202,9 @@ Testing: Execute test suites for both components
 
 Containerization: Use Docker for consistent environments
 
+
 🤝 Contributing
+
 Fork the repository
 
 Create a feature branch (git checkout -b feature/amazing-feature)
@@ -204,10 +215,9 @@ Push to branch (git push origin feature/amazing-feature)
 
 Open a Pull Request
 
-📝 License
-This project is open source and available under the MIT License.
 
 🏆 Skills Demonstrated
+
 Backend Development: Python, Flask, REST APIs, Architecture Patterns
 
 Client Development: .NET, Console Applications, HTTP Clients
