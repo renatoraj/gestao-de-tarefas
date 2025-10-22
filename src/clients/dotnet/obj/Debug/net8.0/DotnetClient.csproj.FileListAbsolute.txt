@@ -1,0 +1,6 @@
+C:\Users\Windows\Documents\Projetos Pessoais\gestao-de-tarefas\src\clients\dotnet\obj\Debug\net8.0\DotnetClient.csproj.AssemblyReference.cache
+C:\Users\Windows\Documents\Projetos Pessoais\gestao-de-tarefas\src\clients\dotnet\obj\Debug\net8.0\DotnetClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows\Documents\Projetos Pessoais\gestao-de-tarefas\src\clients\dotnet\obj\Debug\net8.0\DotnetClient.AssemblyInfoInputs.cache
+C:\Users\Windows\Documents\Projetos Pessoais\gestao-de-tarefas\src\clients\dotnet\obj\Debug\net8.0\DotnetClient.AssemblyInfo.cs
+C:\Users\Windows\Documents\Projetos Pessoais\gestao-de-tarefas\src\clients\dotnet\obj\Debug\net8.0\DotnetClient.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\Projetos Pessoais\gestao-de-tarefas\src\clients\dotnet\obj\Debug\net8.0\DotnetClient.sourcelink.json

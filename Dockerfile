@@ -1,7 +1,15 @@
 FROM python:3.9-slim
-ENV PYTHONPATH=/app
+
 WORKDIR /app
-RUN echo "Flask" > requirements.txt
+
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
+
+COPY src/ /app/
+
+ENV FLASK_APP=app.py
+ENV FLASK_ENV=production
+
 EXPOSE 5000
+
 CMD ["python", "app.py"]

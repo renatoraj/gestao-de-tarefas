@@ -1,11 +1,5 @@
-Flask
-Flask-RESTful
-Flask-PyMongo
-Pydantic
-pytest
-pytest-mock
-requests
-marshmallow
-marshmallow-sqlalchemy
-psycopg2-binary
-mysql-connector-python
+Flask==2.3.3
+pytest==7.4.0
+pytest-mock==3.11.1
+requests==2.31.0
+Pydantic==1.10.12

@@ -1,23 +1,20 @@
-# Makefile for the Todo Microservice Project
-
-.PHONY: run build test
-
-run:
-	@echo "Running the Todo Microservice..."
-	FLASK_APP=src/app.py flask run
+.PHONY: build run test clean
 
 build:
-	@echo "Building the Docker image..."
-	docker build -t todo-microservice-python .
+	docker-compose build
+
+run:
+	docker-compose up
+
+dev:
+	docker-compose up --build
+
+down:
+	docker-compose down
 
 test:
-	@echo "Running unit tests..."
-	pytest src/tests/unit --maxfail=1 --disable-warnings -q
+	docker-compose run --rm todo-api pytest
 
-docker-compose:
-	@echo "Starting services with Docker Compose..."
-	docker-compose up -d
-
-docker-compose-down:
-	@echo "Stopping services with Docker Compose..."
-	docker-compose down
+clean:
+	docker-compose down -v
+	docker system prune -f

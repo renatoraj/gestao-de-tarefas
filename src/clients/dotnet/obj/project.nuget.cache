@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "P34Si6E60fE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Windows\\Documents\\Projetos Pessoais\\gestao-de-tarefas\\src\\clients\\dotnet\\DotnetClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Windows\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
